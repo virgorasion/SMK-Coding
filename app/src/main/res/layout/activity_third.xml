@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:id="@+id/satu"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/dua"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_alignParentRight="true"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tiga"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_alignParentBottom="true"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/empat"
+        android:src="@mipmap/ic_launcher_round"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher_round"
+        android:id="@+id/lima"
+        android:layout_centerInParent="true"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher_round"
+        android:id="@+id/enam"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@id/lima"
+        android:layout_below="@id/lima"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher_round"
+        android:id="@+id/tujuh"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@id/lima"
+        android:layout_below="@id/lima"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher_round"
+        android:id="@+id/delapan"
+        android:layout_centerInParent="true"
+        android:layout_toLeftOf="@id/lima"
+        android:layout_above="@id/lima"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher_round"
+        android:id="@+id/sembilan"
+        android:layout_centerInParent="true"
+        android:layout_toRightOf="@id/lima"
+        android:layout_above="@id/lima"/>
+
+</RelativeLayout>
